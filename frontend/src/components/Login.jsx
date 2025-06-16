@@ -21,7 +21,7 @@ const url = "https://login-page-u9sr.onrender.com"
 
     try {
       const res = await axios.post(
-        "${url}/user/login",
+        `${url}/user/login`,
         formData
       );
       console.log(res);

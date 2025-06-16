@@ -1,0 +1,46 @@
+
+.mynav {
+  background-color: #2f66a0;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.myul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.myul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.myul li a:hover {
+  color: #d1e9ff;
+}
+
+
+.myul li button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 6px 12px;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.myul li button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

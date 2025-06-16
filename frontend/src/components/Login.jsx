@@ -14,13 +14,13 @@ const Login = () => {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
+const url = "https://login-page-u9sr.onrender.com"
   const handleLogin = async (e) => {
     e.preventDefault();
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/user/login",
+        "url/user/login",
         formData
       );
       console.log(res);

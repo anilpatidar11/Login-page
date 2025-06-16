@@ -11,13 +11,13 @@ const Register = () => {
     username: "",
     password: ""
   });
-
+const url = "https://login-page-u9sr.onrender.com"
   const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-const url = "https://login-page-u9sr.onrender.com"
+
   const handleRegister = async (e) => {
     e.preventDefault();
 

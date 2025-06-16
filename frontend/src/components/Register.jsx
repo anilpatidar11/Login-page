@@ -22,7 +22,7 @@ const url = "https://login-page-u9sr.onrender.com"
     e.preventDefault();
 
     try {
-      await axios.post('url/user/register', formData);
+      await axios.post('${url}/user/register', formData);
       alert("Signup Successfully");
       navigate("/");
     } catch (err) {

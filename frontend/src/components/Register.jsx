@@ -17,12 +17,12 @@ const Register = () => {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
+const url = "https://login-page-u9sr.onrender.com"
   const handleRegister = async (e) => {
     e.preventDefault();
 
     try {
-      await axios.post('http://localhost:5000/user/register', formData);
+      await axios.post('url/user/register', formData);
       alert("Signup Successfully");
       navigate("/");
     } catch (err) {
